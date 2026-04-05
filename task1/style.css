@@ -1,0 +1,18 @@
+button{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    background-color: bisque;
+    margin-top: 250px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#counter {
+    font-size: 50px;
+    margin: 20px;
+    color: black;
+}

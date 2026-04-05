@@ -1,0 +1,13 @@
+#box {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    margin: 50px auto;
+}
+#coords {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}

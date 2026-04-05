@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="colorInput" placeholder="Введите цвет (red, blue...)">
+
+<script>
+let input = document.getElementById("colorInput");
+
+input.oninput = function() {
+    document.body.style.backgroundColor = input.value;
+}
+</script>
+
+</body>
+</html>
